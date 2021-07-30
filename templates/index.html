@@ -1,0 +1,48 @@
+
+{% extends 'base.html' %}
+{%block bodyblock %}
+<style>
+.container1 {
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    height: 85vh;
+  }
+  
+  .text-line {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 5s linear forwards, filling 5s ease-in forwards;
+    font-size: 160px;
+  }
+  
+  .text-line text {
+    font-family: 'Spectral', serif;
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes filling {
+    0%, 20% { fill: white; fill-opacity: 0; }
+    100% { fill:#EEE8AA; fill-opacity: 1; }
+  }
+</style>  
+
+<div class="container1">
+<svg height="200" stroke="#EEE8AA" stroke-width="1.5" class="text-line" width="100%"><text x="50%" dominant-baseline="middle" text-anchor="middle" y="55%" font-size="150px">Wellcome to MY AI</text></svg>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital@1&display=swap');
+</style>
+</div>
+
+{% endblock  %}
