@@ -10,4 +10,4 @@ app.add_url_rule('/faceapp','faceapp',views.faceapp)
 app.add_url_rule('/faceapp/gender','gender',views.gender,methods=['GET','POST'])
 # 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='127.0.0.1', port=8080, debug=True)
