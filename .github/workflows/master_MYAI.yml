@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'MYAI'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_e45231dc6d294e58ab7f6f5def2185ed }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_49843168c7ed428b80f196728e2b5430 }}
