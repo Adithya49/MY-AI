@@ -6,3 +6,5 @@ jupyter
 sklearn
 flask
 opencv-python
+cv2
+opencv
